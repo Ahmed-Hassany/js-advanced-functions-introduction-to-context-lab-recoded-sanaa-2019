@@ -37,7 +37,7 @@ function hoursWorkedOnDate(emp,date){
 let total = 0
 for(let i=0;i<emp.timeInEvents.length;i++){
   if(emp.timeInEvents[i].date==date)
-  total+=(emp.timeOutEvents[i].hour/100 - emp.timeInEvents[i].hour/100)
+  total+=(emp.timeOutEvents[i].hour - emp.timeInEvents[i].hour)/100
 }
 
 return total
