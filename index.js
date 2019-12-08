@@ -36,7 +36,7 @@ function hoursWorkedOnDate(emp,date){
 //let index =-1
 let total = 0
 for(let i=0;i<emp.timeInEvents.length;i++){
-  if(element.date==date)
+  if(emp.timeInEvents[i].date==date)
 }
 emp.timeInEvents.forEach((element,i)=>{
 if(element.date==date)
