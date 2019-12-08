@@ -35,7 +35,9 @@ function createTimeOutEvent(emp,datetime){
 function hoursWorkedOnDate(emp,date){
 //let index =-1
 let total = 0
-for(let i=0;i<emp.timeInEvents.length;i++)
+for(let i=0;i<emp.timeInEvents.length;i++){
+  
+}
 emp.timeInEvents.forEach((element,i)=>{
 if(element.date==date)
 {
